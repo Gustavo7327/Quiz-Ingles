@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz on English Idioms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Modal for quiz start -->
+    <div id="start-modal" class="modal">
+        <div class="modal-content">
+            <h2>Welcome to the English Idioms Quiz!</h2>
+            <p>Click the button below to start the quiz.</p>
+            <button id="start-quiz-btn">Start Quiz</button>
+        </div>
+    </div>
+
+    <!-- Modal for quiz completion -->
+    <div id="end-modal" class="modal">
+        <div class="modal-content">
+            <h2>Quiz Completed!</h2>
+            <p>You've completed all the questions. Do you want to try again?</p>
+            <button id="restart-quiz-btn">Restart Quiz</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>English Idioms Quiz</h1>
+        <div class="question-box" id="question-box">
+            <h2 id="question"></h2>
+        </div>
+        <div class="options-box" id="options-box"></div>
+        <button id="submit">Submit Answer</button>
+        <div id="result" class="result-box"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
